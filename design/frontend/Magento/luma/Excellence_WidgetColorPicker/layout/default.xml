@@ -9,9 +9,9 @@
     <body>
         <referenceContainer name="content.top">
             <block class="Excellence\WidgetColorPicker\Block\Widget\Textcolorpicker" name="demoBlock" template="widget/textcolorpicker.phtml">
-                <action method="setData">
-                    <argument name="name" xsi:type="string">Hello</argument>
-                </action>
+            <arguments>
+                <argument name="name" xsi:type="string">via xml</argument>
+            </arguments>
             </block>
         </referenceContainer>
     </body>
