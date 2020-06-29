@@ -9,9 +9,12 @@
     <body>
         <referenceContainer name="content.top">
             <block class="Excellence\WidgetColorPicker\Block\Widget\Textcolorpicker" name="demoBlock" template="widget/textcolorpicker.phtml">
-            <arguments>
-                <argument name="name" xsi:type="string">via xml</argument>
-            </arguments>
+                <arguments>
+                    <argument name="name" xsi:type="string">via xml</argument>
+                    <argument name="email" xsi:type="string">anks.it2296@gmail.com</argument>
+                    <argument name="number" xsi:type="number">7007294451</argument>
+                    <argument name="test_select" xsi:type="string">Yes</argument>
+                </arguments>
             </block>
         </referenceContainer>
     </body>
