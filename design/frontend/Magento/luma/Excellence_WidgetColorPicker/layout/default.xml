@@ -8,14 +8,14 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content.top">
-            <block class="Excellence\WidgetColorPicker\Block\Widget\Textcolorpicker" name="demoBlock" template="widget/textcolorpicker.phtml">
-                <arguments>
-                    <argument name="name" xsi:type="string">via xml</argument>
-                    <argument name="email" xsi:type="string">anks.it2296@gmail.com</argument>
-                    <argument name="number" xsi:type="number">7007294451</argument>
-                    <argument name="test_select" xsi:type="string">Yes</argument>
-                </arguments>
-            </block>
+            <referenceBlock name="product.info.options.wrapper.bottom">
+                <block class="Excellence\WidgetColorPicker\Block\Widget\Textcolorpicker" name="demoBlock" template="widget/textcolorpicker.phtml">
+                </block>
+            </referenceBlock>
+            <referenceBlock name="product.info.form.content">
+                <block class="Excellence\WidgetColorPicker\Block\Widget\Textcolorpicker" name="demoBlock1" template="widget/textcolorpicker.phtml">
+                </block>
+            </referenceBlock>
         </referenceContainer>
     </body>
 </page>
